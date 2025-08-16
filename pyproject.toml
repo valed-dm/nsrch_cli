@@ -1,0 +1,16 @@
+[project]
+name = "nsrch-cli"
+version = "0.1.0"
+description = "AI-powered search with captcha solving"
+authors = [
+    {name = "dmvaled",email = "dmvaled@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
