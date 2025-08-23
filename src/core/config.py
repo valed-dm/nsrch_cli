@@ -49,7 +49,7 @@ class Settings(BaseSettings):
     # --- AI Configuration ---
     OLLAMA_BASE_URL: str = "http://localhost:11434"
 
-    AI_TEXT_MODEL_NAME: str = "llama3"  # Or TinyLlama
+    AI_TEXT_MODEL_NAME: str = "llama3"  # Or TinyLlama or llama3
     AI_TEXT_MODEL_API: str = "http://localhost:11434/api/generate"
 
     AI_VISION_MODEL_NAME: str = "llava"  # Or "bakllava"
